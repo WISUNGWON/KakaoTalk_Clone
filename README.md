@@ -10,7 +10,7 @@ Cloning code of KakaoTalk which is most popular messanger app in S.korea
 
 ## Project Explain
 ## Inspiration
-I followed course on Nomad Coder called [" 코코아톡 클론 코딩"](https://academy.nomadcoders.co/courses/enrolled/202997)
+I followed course on Nomad Coder called ["코코아톡 클론 코딩"](https://academy.nomadcoders.co/courses/enrolled/202997C#)
  
 ## Technologies
 
