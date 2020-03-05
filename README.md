@@ -1,19 +1,21 @@
-# KaKao_Clone 
+# KaKao_Clone
 
-Cloning code of KakaoTalk which is most popular messanger app in S.korea 
+Cloning code of KakaoTalk which is most popular messanger app in S.korea
 
 ## Table of Contents
 
-* [Project Explanation]
-* [Inspiration]
-* [Technologies]
+- [Project Explanation]
+- [Inspiration]
+- [Technologies]
 
 ## Project Explain
+
 ## Inspiration
-I followed course on Nomad Coder called ["½ÇÀü ÄÚÄÚ¾ÆÅå Å¬·Ğ ÄÚµù"](https://academy.nomadcoders.co/courses/enrolled/202997C#)
- 
+
+I followed course on Nomad Coder called ["ì½”ì½”ì•„í†¡ ì½”ë”©í´ë¡ "](https://academy.nomadcoders.co/courses/enrolled/202997C#)
+
 ## Technologies
 
-* HTML
-* CSS
-* Font Awesome
+- HTML
+- CSS
+- Font Awesome
