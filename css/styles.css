@@ -8,6 +8,7 @@
 @import "find.css";
 @import "more.css";
 @import "settings.css";
+@import "chat.css";
 
 * {
   /*nav 바의 아이콘에서 ... 이 사라지는걸 방지해줌?*/
