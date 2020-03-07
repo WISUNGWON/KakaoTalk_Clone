@@ -1,0 +1,19 @@
+.friends .friends__plus {
+  margin-top: 20px;
+  padding: 20px 0px;
+  border-top: 1px solid #f7f7f7;
+  border-bottom: 1px solid #f7f7f7;
+  margin: 20px 0px;
+}
+
+.friends__plus .friends__title,
+.friends__list .friends__title {
+  font-size: 14px;
+  opacity: 0.7; /*  검은색을 점점 흐리게 함. (회색 대용) */
+  margin-bottom: 15px;
+}
+
+.friend__content .friend__name {
+  display: block;
+  margin-bottom: 5px;
+}

@@ -4,6 +4,10 @@
 @import "header.css";
 @import "nav-bar.css";
 @import "friend.css";
+@import "friends.css";
+@import "find.css";
+@import "more.css";
+@import "settings.css";
 
 * {
   /*nav 바의 아이콘에서 ... 이 사라지는걸 방지해줌?*/
