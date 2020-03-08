@@ -37,3 +37,19 @@
   align-items: center;
   border-radius: 50%; /* 채팅수 알림을 동그라미로 만들어줌 */
 }
+
+@keyframes showNavBar {
+  from {
+    transform: translateY(80px);
+  }
+  to {
+    transform: none;
+  }
+}
+
+.nav {
+  /* 전체 엘리먼트의 show-up동작이 일어난 이후 nav-bar의 show-up을 실행하도록 조정*/
+  transform: translateY(80px);
+  animation: showNavBar 0.5s ease-out forwards;
+  animation-delay: 0.4s;
+}

@@ -1,4 +1,5 @@
 .header-wrapper {
+  /* 채팅창의 맨 위부분 고정요소 */
   position: fixed;
   z-index: 2;
   top: 0px;
@@ -36,6 +37,7 @@
 }
 
 .chat__icon-left {
+  /* 채팅 입력창에 있는 아이콘 (왼쪽) */
   position: absolute;
   left: 10px;
 }
@@ -83,15 +85,16 @@
   border-radius: 40px;
   box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
     0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
-  animation: float 3s linear infinite forwards;
+  animation: float 2s linear infinite forwards; /* 채팅창 아래 쉐도우가 깜빡이는 애니메이션 시간 설정 */
 }
 
 .chat__icon {
   font-size: 18px;
-  transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out; /* 채팅창 클릭시, 채팅 아이콘이 사라짐. */
 }
 
 .chat__write:focus ~ .chat__icon {
+  /* 채팅창 클릭시, 채팅 아이콘이 사라짐. */
   opacity: 0;
 }
 
@@ -141,6 +144,7 @@
 }
 
 @keyframes spin {
+  /* 배경사진이 회전함  */
   from {
     transform: none;
   }
@@ -168,7 +172,7 @@
   padding: 10px 20px;
   border-radius: 20px;
   color: white;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .incoming-message .message__author {
@@ -189,6 +193,7 @@
 }
 
 @keyframes incomingAnim {
+  /*chat 창에 들어갈때 메세지가 밖에서부터 안으로 오는 효과를 주는 에니메이션 */
   from {
     opacity: 0;
     transform: translateX(-200px);
