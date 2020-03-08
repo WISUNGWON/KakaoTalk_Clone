@@ -18,7 +18,7 @@
   z-index: 4;
 }
 
-@media screen and (min-width: 530px) {
+@media screen and (min-width: 550px) {
   /* 550px이상으로 늘리려고 하면, bigScreen실행 */
   .bigScreen {
     display: flex;
