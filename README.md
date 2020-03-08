@@ -16,8 +16,8 @@ I followed course on Nomad Coder called ["코코아톡 코딩클론"](https://ac
 
 ## ProjectExplanation
 
--Practice Basic HTML, CSS, Git Desktop
--Make front-end parts of kakao-talk which is most popular social network chating app in S.Korea
+- Practice Basic HTML, CSS, Git Desktop
+- Make front-end parts of kakao-talk which is most popular social network chating app in S.Korea
 
 ## Features(Files)
 
@@ -26,7 +26,7 @@ I followed course on Nomad Coder called ["코코아톡 코딩클론"](https://ac
 - Find Friends
 - Friends
 - More
-- Settinhs
+- Settings
 
 ## Technologies
 
