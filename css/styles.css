@@ -9,6 +9,7 @@
 @import "more.css";
 @import "settings.css";
 @import "chat.css";
+@import "mobile.css";
 
 * {
   /*nav 바의 아이콘에서 ... 이 사라지는걸 방지해줌?*/
@@ -26,4 +27,19 @@ body {
 a {
   color: inherit; /* 클릭시에 아이콘의 색상이 바뀌는것을 제어함 inherit를 적용하면 모든 클릭 아이콘이 검은색으로 됨. inherit : get the color form the father(black) */
   text-decoration: none; /* 글자에 링크나 데코를 지운다. */
+}
+
+@keyframes fadeIn {
+  /* 모든 페이지에서 엘리먼트들이 아래에서 위로 올라오는 효과를 줌 */
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+main {
+  animation: fadeIn 0.5s ease-in-out;
 }
